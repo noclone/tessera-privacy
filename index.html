@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index,follow">
+<title>Politique de confidentialité — Tessera</title>
+<style>
+  :root {
+    --bg: #0f1117; --surface: #1b2030; --stroke: #2e3650;
+    --text: #f2f5fa; --muted: #9aa5bc; --mint: #3ce7b0;
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #f5f7fb; --surface: #ffffff; --stroke: #dfe4ee;
+      --text: #1a1f2b; --muted: #5b6478; --mint: #0f9e73;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6; -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 40px 20px 72px; }
+  h1 { font-size: 2rem; font-weight: 800; letter-spacing: -0.02em; margin: 0 0 4px; }
+  .updated { color: var(--muted); font-style: italic; font-size: 0.9rem; margin: 0 0 28px; }
+  h2 { font-size: 1.2rem; font-weight: 700; color: var(--mint); margin: 34px 0 10px; }
+  p { margin: 0 0 14px; }
+  ul { margin: 0 0 14px; padding-left: 22px; }
+  li { margin: 0 0 6px; }
+  strong { font-weight: 700; }
+  a { color: var(--mint); }
+  .intro { background: var(--surface); border: 1px solid var(--stroke); border-radius: 14px; padding: 18px 20px; margin: 0 0 8px; }
+  .brand { color: var(--mint); }
+  footer { margin-top: 44px; color: var(--muted); font-size: 0.85rem; border-top: 1px solid var(--stroke); padding-top: 18px; }
+</style>
+</head>
+<body>
+  <main class="wrap">
+    <h1>Politique de confidentialité <span class="brand">— Tessera</span></h1>
+    <p class="updated">Dernière mise à jour : 22 juillet 2026</p>
+
+    <div class="intro">
+      <p>Tessera est un jeu de culture générale : chaque jour une question, avec des groupes d'amis et un système de pari de confiance. Cette politique explique quelles données l'application collecte, pourquoi, et quels sont tes droits.</p>
+      <p style="margin:0">L'éditeur de Tessera est responsable du traitement de tes données. Pour toute question ou demande, écris à <a href="mailto:jeanfechter@gmail.com">jeanfechter@gmail.com</a>.</p>
+    </div>
+
+    <h2>Données que nous collectons</h2>
+    <p><strong>Compte.</strong> Si tu crées un compte par email, nous conservons ton adresse email, ton pseudo et ton mot de passe (stocké de façon chiffrée, jamais en clair). Si tu te connectes avec Google, nous recevons ton adresse email, ton nom d'affichage et l'identifiant de ton compte Google.</p>
+    <p><strong>Utilisation en invité.</strong> Tu peux jouer sans compte : un identifiant anonyme est alors créé pour conserver ta progression sur l'appareil. Si tu crées ensuite un compte, cette progression peut être rattachée à ton compte.</p>
+    <p><strong>Données de jeu.</strong> Tes réponses aux questions, tes scores, tes paris de confiance, tes séries et les dates associées.</p>
+    <p><strong>Données sociales.</strong> Les groupes que tu crées ou rejoins, ton appartenance à ces groupes, les codes d'invitation, ainsi que les défis que tu envoies ou reçois et leurs réponses.</p>
+    <p><strong>Contenus que tu nous envoies.</strong> Les questions que tu proposes, les signalements d'erreurs et les suggestions d'amélioration (texte libre).</p>
+    <p><strong>Notifications.</strong> Si tu actives les notifications, un jeton d'appareil (fourni par Firebase Cloud Messaging) est enregistré pour pouvoir t'envoyer des notifications push.</p>
+    <p>Tessera <strong>n'intègre pas</strong> d'outil de publicité ni de traçage publicitaire, et ne revend aucune donnée.</p>
+
+    <h2>Pourquoi nous utilisons ces données</h2>
+    <ul>
+      <li>Faire fonctionner le jeu : afficher la question du jour, calculer et conserver tes scores et tes séries.</li>
+      <li>Permettre les fonctionnalités sociales : groupes, classements et défis entre amis.</li>
+      <li>Traiter les questions, signalements et suggestions que tu envoies.</li>
+      <li>T'envoyer des notifications (rappel de série, activité dans tes groupes) si tu les as acceptées.</li>
+      <li>Assurer la sécurité et le bon fonctionnement du service.</li>
+    </ul>
+
+    <h2>Base légale (RGPD)</h2>
+    <p>Le traitement de tes données de compte et de jeu est nécessaire à la fourniture du service que tu demandes. L'envoi de notifications push repose sur ton consentement, que tu peux retirer à tout moment dans les réglages de ton appareil.</p>
+
+    <h2>Qui a accès à tes données</h2>
+    <p>Tes données sont hébergées et traitées par nos prestataires techniques, qui agissent pour notre compte :</p>
+    <ul>
+      <li><strong>Supabase</strong> — hébergement de la base de données, de l'authentification et du backend.</li>
+      <li><strong>Google Firebase</strong> — envoi des notifications push (Cloud Messaging) et connexion via Google.</li>
+    </ul>
+    <p>Ces prestataires peuvent traiter des données en dehors de l'Union européenne. Dans ce cas, des garanties appropriées (clauses contractuelles types) encadrent ces transferts. Nous ne partageons pas tes données avec d'autres tiers à des fins commerciales.</p>
+    <p>Les autres membres de tes groupes voient ton pseudo, tes scores dans le groupe et les défis que tu partages avec eux.</p>
+
+    <h2>Durée de conservation</h2>
+    <p>Nous conservons tes données tant que ton compte existe. Si tu supprimes ton compte ou nous en fais la demande, tes données personnelles sont supprimées, sauf ce que la loi nous imposerait de conserver.</p>
+
+    <h2>Tes droits</h2>
+    <p>Conformément au RGPD, tu disposes des droits d'accès, de rectification, d'effacement, de portabilité, de limitation et d'opposition, ainsi que du droit de retirer ton consentement. Pour exercer ces droits ou supprimer ton compte, écris à <a href="mailto:jeanfechter@gmail.com">jeanfechter@gmail.com</a>. Tu peux aussi introduire une réclamation auprès de la CNIL.</p>
+
+    <h2>Sécurité</h2>
+    <p>Les mots de passe sont stockés chiffrés et les échanges avec le serveur sont protégés. Aucune méthode n'étant infaillible, nous ne pouvons garantir une sécurité absolue, mais nous mettons en œuvre des mesures raisonnables pour protéger tes données.</p>
+
+    <h2>Enfants</h2>
+    <p>Tessera n'est pas destiné aux enfants de moins de 15 ans. Si tu penses qu'un enfant nous a communiqué des données personnelles, écris-nous et nous les supprimerons.</p>
+
+    <h2>Modifications</h2>
+    <p>Cette politique peut évoluer. En cas de changement important, nous t'en informerons dans l'application. La date de dernière mise à jour figure en haut de ce document.</p>
+
+    <h2>Contact</h2>
+    <p>Pour toute question relative à cette politique ou à tes données : <a href="mailto:jeanfechter@gmail.com">jeanfechter@gmail.com</a>.</p>
+
+    <footer>Tessera — jeu de culture générale quotidien.</footer>
+  </main>
+</body>
+</html>
